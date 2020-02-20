@@ -5,4 +5,4 @@ timer. The first two buttons should start and pause the left clock. You can get 
 Search for a way to convert time into degrees on the arrows. To animate them change their rotation with CSS. The other three
 buttons are for the timer, they start, stop and reset it.
 
-If you have any questions regarding the task, or if you need help, don't hesitate to contact me.
+Analog clock project By Denitsa Pambelova
