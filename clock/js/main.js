@@ -1,9 +1,7 @@
 
 (function main(){
 
-// let secondsLabel = document.getElementById('clock-second-hand');
-// let minutesLabel = document.getElementById('clock-minute-hand');
-// let hoursLabel = document.getElementById('clock-hour-hand');
+
 
 let totalSeconds = 0;
 let startButton = document.getElementById('start-clock');
@@ -123,7 +121,7 @@ let timer = null;
         $('#clock-minute-hand').css("transform", "rotate(" + minute + "deg)");
         $('#clock-second-hand').css("transform", "rotate(" + second + "deg)");
 
-        //Display date and time just below our clock
+        //Display date and time just below the clock
         $('.currentDateTime').text(moment().format('MMM DD YYYY HH:mm:ss'));
 
     }
